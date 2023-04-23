@@ -16,7 +16,7 @@ Note: I used CyberChef to convert hex to plaintext but there are some other meth
 
 xxd creates a hex dump of a given file or standard input.
 
-echo <hex value> | xxd -r -p
+echo '<hex value>' | xxd -r -p
 
 -r (revert) converts the hexdump into binary.
 -r -p (revert and plain) using this combination we can read plain hexadecimal dumps without line number information and without a particular column layout.
